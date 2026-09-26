@@ -53,8 +53,8 @@ public class AppService {
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "nz.woairenqi.eu.cc:11111");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "ubpmaEb3yFt2VBc4iI9yW0QW0avBtjWi");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN","");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN","enmuyuu.airenqi.indevs.in");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiYTcwNDZjMmMwNzkwZWYwM2E0YzkxM2I0ZTBkODQ5NjUiLCJ0IjoiNmU4NjdkNzItMzE2Yi00MDM4LTkwOTQtMzNjNmEwZTE0ODM0IiwicyI6Ik5qWmpNRGxoTW1FdE5qYzJZaTAwTkdSakxUbGpOMkl0TXpnM09UbGlaak5sWXpZMyJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String HY2_PORT = env("HY2_PORT", "");
